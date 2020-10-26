@@ -2,23 +2,33 @@ body{
   font-family: sans-serif;
 }
 
-header a{
-  text-decoration: none;
-  color: grey;
-  padding: 0 10px;
+.container-fluid{
+background-image: url(../img/sfondo.jpg);
+background-size: cover;
+background-position: center;
+height: 700px;
+position: relative;
 }
 
+/* navbar */
 nav{
   height: 80px;
   line-height: 80px;
+  background-color: white;
 }
 
 .header_logo{
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 .header_menu .list_inline{
   text-align: right;
+}
+
+header a{
+  text-decoration: none;
+  color: grey;
+  padding: 0 10px;
 }
 
 .list_inline li{
@@ -31,8 +41,26 @@ nav{
   font-weight: bold;
 }
 
-
-
 .header_languages li:not(:last-child) a{
   border-right: 1px solid grey;
+}
+
+/* hero text */
+.hero_text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.hero_text h1{
+  font-size: 3rem;
+  padding-bottom: 30px;
+}
+
+.hero_text img{
+  width: 150px;
+  height: auto;
 }
