@@ -56,11 +56,47 @@ header a{
 }
 
 .hero_text h1{
-  font-size: 3rem;
+  font-size: 50px;
   padding-bottom: 30px;
 }
 
 .hero_text img{
   width: 150px;
   height: auto;
+}
+
+/* main */
+
+/* section 1 */
+.card{
+  background-color: #FAFAFA;
+  text-align: center;
+  margin: 50px 0;
+  padding-top: 80px;
+  line-height: 50px;
+}
+
+.go{
+  padding-right: 20px
+}
+
+.bike{
+  padding-left: 20px;
+}
+
+.card h2{
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.card p{
+  font-size: 25px;
+}
+
+.card img{
+  width: 100%;
+}
+
+.card a{
+  text-decoration: none;
 }
