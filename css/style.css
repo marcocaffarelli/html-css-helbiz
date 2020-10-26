@@ -288,13 +288,17 @@ footer .row:first-child{
   .bike{
     padding-left: 0;
   }
-  
+
   .sfondo_left{
     margin-right: 0;
   }
   .sfondo_right{
     margin-top: 40px;
     margin-left: 0;
+  }
+
+  .terza .text_3sez{
+    padding: 0;
   }
 
   .fotografie{
@@ -308,3 +312,65 @@ footer .row:first-child{
   footer{
     text-align: center;
   }
+
+  /* small Query sm */
+  @media screen and (max-width: 768px) {
+
+    .go{
+      padding-right: 0;
+    }
+
+    .bike{
+      padding-left: 0;
+    }
+
+    .sfondo_left{
+      margin-right: 0;
+    }
+    .sfondo_right{
+      margin-top: 40px;
+      margin-left: 0;
+    }
+
+    .terza .text_3sez{
+      padding: 0;
+    }
+
+    .fotografie{
+      margin-top: 60px;
+    }
+
+    .pl_150{
+      padding-left: 185px;
+
+    }
+    footer{
+      text-align: center;
+    }
+
+    .seconda .col-sm-12{
+      position: relative;
+    }
+
+    .col-lg-4{
+      padding: 35px 0;
+    }
+
+    .seconda img{
+      width: 100px;
+      height: auto;
+      position: absolute;
+      top: -75px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #move{
+      position: absolute;
+      bottom:-125%;
+      width: 100%;
+      text-align: center;
+    }
+
+    .center{
+      text-align: center;
+    }
