@@ -2,6 +2,9 @@ body{
   font-family: sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
 .container-fluid{
 background-image: url(../img/sfondo.jpg);
 background-size: cover;
@@ -26,7 +29,6 @@ nav{
 }
 
 header a{
-  text-decoration: none;
   color: grey;
   padding: 0 10px;
 }
@@ -97,10 +99,6 @@ header a{
   width: 100%;
 }
 
-.card a{
-  text-decoration: none;
-}
-
 /* seconda sezione */
 .seconda .container-fluid{
   background-image: url(../img/HelMain.jpg);
@@ -131,12 +129,64 @@ header a{
   padding-left: 251px;
 }
 
-
 /* terza sezione */
 
 .terza .container{
   height: 500px;
   background-image: url(../img/arton.jpg);
   background-repeat: no-repeat;
-  background-size: cover;:
+  background-size: cover;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.terza .row, .terza .col-lg-6{
+  height: 100%;
+}
+.terza .text_3sez{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 100px;
+}
+
+.text_3sez h2{
+  font-size: 40px;
+}
+
+.text_3sez p, .text_3sez a{
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.text_3sez a{
+  color: white;
+}
+
+.sfondo_left, .sfondo_right{
+  margin: 20px 0;
+}
+
+.sfondo_left{
+  height: 100%;
+  background-image: url(../img/black.jpg);
+  background-size: contain;
+  margin-right: 10px;
+}
+.sfondo_right{
+  height: 100%;
+  background-image: url(../img/tramonto-roma.jpg);
+  background-size: cover;
+  margin-left: 10px;
+}
+
+
+
+.terza h3{
+  font-size: 30px;
+}
+
+.sfondo_left h3, .sfondo_left div, .sfondo_right h3, .sfondo_right div{
+  padding: 10px 0;
 }
