@@ -102,31 +102,41 @@ header a{
 }
 
 /* seconda sezione */
-section .container-fluid{
+.seconda .container-fluid{
   background-image: url(../img/HelMain.jpg);
 }
-
-section .col-lg-4 img{
+.seconda .row{
+  position: relative;
+}
+.seconda img{
   width: 250px;
   height: auto;
-  position: relative;
-  bottom: 300px;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .tx_cnt{
   text-align: center;
 }
 
+.col-lg-4{
+  padding: 100px 0;
+}
+
 .pl_150{
   font-size: 25px;
   font-weight: bold;
-  padding-left: 266px;
+  padding-left: 251px;
 }
 
-.pr_150{
-  padding-right: 150px;
-}
 
-.pl_150, .pr_150{
-  padding-top: 100px;
+/* terza sezione */
+
+.terza .container{
+  height: 500px;
+  background-image: url(../img/arton.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;:
 }
