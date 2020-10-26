@@ -67,7 +67,7 @@ header a{
 
 /* main */
 
-/* section 1 */
+/* prima sezione */
 .card{
   background-color: #FAFAFA;
   text-align: center;
@@ -99,4 +99,34 @@ header a{
 
 .card a{
   text-decoration: none;
+}
+
+/* seconda sezione */
+section .container-fluid{
+  background-image: url(../img/HelMain.jpg);
+}
+
+section .col-lg-4 img{
+  width: 250px;
+  height: auto;
+  position: relative;
+  bottom: 300px;
+}
+
+.tx_cnt{
+  text-align: center;
+}
+
+.pl_150{
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 266px;
+}
+
+.pr_150{
+  padding-right: 150px;
+}
+
+.pl_150, .pr_150{
+  padding-top: 100px;
 }
