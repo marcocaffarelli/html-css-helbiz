@@ -1,0 +1,38 @@
+body{
+  font-family: sans-serif;
+}
+
+header a{
+  text-decoration: none;
+  color: grey;
+  padding: 0 10px;
+}
+
+nav{
+  height: 80px;
+  line-height: 80px;
+}
+
+.header_logo{
+  font-weight: bold; 
+}
+
+.header_menu .list_inline{
+  text-align: right;
+}
+
+.list_inline li{
+  list-style: none;
+  display: inline-block;
+}
+
+.header_menu, .header_languages{
+  font-size: 0.55rem;
+  font-weight: bold;
+}
+
+
+
+.header_languages li:not(:last-child) a{
+  border-right: 1px solid grey;
+}
