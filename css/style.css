@@ -188,7 +188,7 @@ header a{
 .sfondo_left{
   height: 100%;
   background-image: url(../img/black.jpg);
-  background-size: contain;
+  background-size: cover;
   margin-right: 10px;
 }
 .sfondo_right{
@@ -257,10 +257,6 @@ footer .row:first-child{
   text-align: center;
 }
 
-.badge img{
-
-}
-
 .apple, .googleplay{
   height: 30px;
   width:100px;
@@ -281,3 +277,34 @@ footer .row:first-child{
   background-size: cover;
   background-position: center;
 }
+
+/* Media Query md */
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+
+  .go{
+    padding-right: 0;
+  }
+
+  .bike{
+    padding-left: 0;
+  }
+  
+  .sfondo_left{
+    margin-right: 0;
+  }
+  .sfondo_right{
+    margin-top: 40px;
+    margin-left: 0;
+  }
+
+  .fotografie{
+    margin-top: 60px;
+  }
+
+  .pl_150{
+    padding-left: 185px;
+}
+  }
+  footer{
+    text-align: center;
+  }
