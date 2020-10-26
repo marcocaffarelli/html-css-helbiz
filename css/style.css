@@ -130,7 +130,9 @@ header a{
 }
 
 /* terza sezione */
-
+.terza{
+  height: 1020px;
+}
 .terza .container{
   height: 500px;
   background-image: url(../img/arton.jpg);
@@ -181,12 +183,33 @@ header a{
   margin-left: 10px;
 }
 
-
-
 .terza h3{
   font-size: 30px;
 }
 
 .sfondo_left h3, .sfondo_left div, .sfondo_right h3, .sfondo_right div{
   padding: 10px 0;
+}
+
+/* quarta sezione */
+
+.fotografie{
+  height: 300px;
+  background-image: url(../img/fotografie.webp);
+  margin: 20px 0;
+
+  position: relative;
+}
+
+.text_4sez{
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px 40px;
+}
+
+.pad{
+  margin-left: 10px;
 }
