@@ -5,7 +5,7 @@ body{
 a{
   text-decoration: none;
 }
-.container-fluid{
+.header_fluid{
   background-image: url(../img/sfondo.jpg);
   background-size: cover;
   background-position: center;
@@ -115,9 +115,14 @@ header a{
 }
 
 /* seconda sezione */
-.seconda .container-fluid{
+.seconda .main_fluid{
   background-image: url(../img/HelMain.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  position: relative;
 }
+
 .seconda .row{
   position: relative;
 }
@@ -231,7 +236,7 @@ header a{
 
 /* footer */
 
-.footer_content{
+.footer_fluid{
   background-color: black;
   color: white;
   line-height: 32px;
@@ -242,7 +247,7 @@ footer .row:first-child{
   margin-bottom: 20px;
 }
 
-.footer_content li{
+.footer_fluid li{
   list-style: none;
   color: grey;
 }
